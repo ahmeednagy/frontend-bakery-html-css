@@ -22,7 +22,6 @@ The layout was implemented using CSS float property, with clear: both used to pr
 - images/
 
 ## 📸 Preview
-(Add screenshots here)
 
 ## 👨‍💻 Author
 Ahmed Nagy
