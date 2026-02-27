@@ -1,11 +1,10 @@
 body {
-  overflow-x: hidden; /* بيخفي السكرول الأفقي */
-  overflow-y: auto; /* بيسمح بالسكرول الرأسي لو محتاجينه */
+  overflow-x: hidden;
+  overflow-y: auto;
   margin: 0;
     padding: 0;
 }
 
-/* كمان من الأفضل تضيف */
 html, body {
   width: 100%;
   max-width: 100%;
