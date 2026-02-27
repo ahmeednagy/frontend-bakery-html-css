@@ -1,0 +1,282 @@
+body {
+  overflow-x: hidden; /* بيخفي السكرول الأفقي */
+  overflow-y: auto; /* بيسمح بالسكرول الرأسي لو محتاجينه */
+  margin: 0;
+    padding: 0;
+}
+
+/* كمان من الأفضل تضيف */
+html, body {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.section-1{
+    background-image: url(../images/bgs.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo{
+    float: left;
+    padding: 20px 265px;
+}
+
+.logo img{
+    width: 170px;
+    padding: 20px;
+}
+
+.links{
+    float: right;
+    padding: 10px 200px;
+}
+
+.links ul{
+    margin: 0;
+    overflow: auto;
+    list-style: none;
+}
+
+
+.links li{
+    float: left;
+    padding: 30px 20px;
+}
+
+.links li a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+
+/* .caption{
+    text-align: center;
+    padding: 300px;
+    color: orange;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+} */
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: orange;
+}
+
+
+
+.caption h4{
+    font-size: 20px;
+}
+
+.caption h2{
+    font-size: 70px;
+    margin: 20px;
+}
+
+.caption p{
+    font-size: 20px;
+    margin: 40px;
+}
+
+.btn a{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 21px 23px;
+    margin: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+.learn-more{
+    background-color: rgb(201, 120, 21);
+}
+
+.contact-us{
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+
+.learn-more:hover{
+    background-color: white;
+}
+
+.learn-more:hover  span{
+    color: black;
+}
+
+
+.contact-us:hover{
+    background-color: white;
+}
+
+.contact-us:hover span{
+    color: black;
+}
+
+
+
+.section-2{
+    position: relative;
+}
+
+.section-2 img {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    /* margin: 53px; */
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.section-2 .info {
+    float: left;
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+
+
+.section-3{
+    background-color: gainsboro ;
+    position: relative;
+    top: 150px;
+}
+
+.section-3 img {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    /* margin: 53px; */
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.section-3 .info {
+    float: left;
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.container-2{
+    width: 100%;
+    height: 30%;
+}
+
+
+.section-4{
+    position: relative;
+}
+
+
+.special-heading{
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.section-5{
+    /* background-color: tomato; */
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding-left: 250px;
+}
+
+.card{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+    padding-left: 50px;
+    padding-top: 450px;
+}
+
+
+.caption-card h3{
+    text-align: center;
+    margin: 0;
+    color: black;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+.caption-card p{
+    text-align: center;
+    color: black;
+    padding: 15px 0;
+    
+}
+
+.container-3{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.section-6{
+    background-color: rgb(155, 6, 6);
+    position: relative;
+    top: 300px;
+}
+
+.section-6 img {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin: 53px;
+    margin-top: 5px;
+    margin-left: 150px;
+    /* margin-bottom: 150px; */
+}
+
+.section-6 .info {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 300px;
+}
