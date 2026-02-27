@@ -13,6 +13,9 @@ A modern and responsive bakery website built using HTML5 and CSS3.
 - HTML5
 - CSS3
 
+## 💡 Layout Technique
+The layout was implemented using CSS float property, with clear: both used to properly manage element flow and prevent layout breaking.
+
 ## 📂 Project Structure
 - index.html
 - style.css
